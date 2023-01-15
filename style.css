@@ -97,7 +97,7 @@ color: #727272;
 
 }
 
-.explore-more-btn{
+.explore-more-btn, .ten-plus-year-btn{
   width: 180px;
   height: 64px;
   border-radius: 8px;
@@ -115,4 +115,39 @@ font-size: 20px;
 
 .features-image-1{
 margin-bottom: 50px;
+}
+
+.features-you-items{
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+  width: 586px;
+ height: 982px;
+}
+
+.features-you-all-items{
+  display: flex;
+flex-direction: row;
+margin: 30px;
+justify-content: space-between;
+}
+
+.architect-img{
+  width: 800px;
+  height: 900px;
+  
+  
+}
+
+.ten-year-btn{
+margin-left: 700px;
+}
+
+.ten-plus-year-btn{
+  width: 342px;
+height: 200px;
+font-weight: 700;
+font-size: 50px;
+font-family: 'Work Sans';
+
 }
