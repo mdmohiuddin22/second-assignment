@@ -39,7 +39,7 @@ margin-left: 150px;
  
 }
 
-.banner-title{
+.banner-title, .spons-title{
   font-weight: 700;
   font-size: 64px;
   font-family: 'Work Sans';
@@ -153,6 +153,21 @@ font-family: 'Work Sans';
 }
 
 /*------------- Some Facts ----------------*/
+.some-article{
+  width:500px;
+  height: 200px;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+.some-title{
+  font-family: 'Work Sans';
+  margin-top: 10px;
+  margin-bottom: 10px;
+font-size: 100px;
+color: #171616;
+}
 .ribon{
   width: 241.83px;
 height: 241.83px;
@@ -174,20 +189,38 @@ justify-content: center;
 height: 45.22px;
 }
 .icon-54{
+  margin: 20px 0;
   font-weight: 600;
   font-size: 45px;
 }
 
 .icon-awards{
-  margin-bottom: 30px;
+  margin-top: 0;
+  margin-bottom: 40px;
   font-weight: 600;
   font-size: 20px;
+}
+
+.spons-title-description{
+  width:500px;
+height: 200px;
+font-size: 20px;
+text-align: center;
+margin-left: 600px;
+
 }
 
 .spons-images{
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   justify-items: center;
+}
+
+.spons-image-logo{
+  width: 166.76px;
+height: 50px;
+background-color:rgb(233, 225, 225);
+
 }
 
 /* spons end  */
